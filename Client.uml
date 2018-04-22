@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>PolskiZwiazekWarcabowy.Client</OriginalElement>
+  <nodes>
+    <node x="1459.982142481835" y="1059.0">PolskiZwiazekWarcabowy.Client.ClientJoinTest.FakeClient</node>
+    <node x="58.09047581516825" y="1037.0">PolskiZwiazekWarcabowy.Client.ColoursConnectionsTest.Worker</node>
+    <node x="0.0" y="2290.0">PolskiZwiazekWarcabowy.Client.EndWindow</node>
+    <node x="0.0" y="1508.0">PolskiZwiazekWarcabowy.Client.ColoursConnectionsTest</node>
+    <node x="566.8125" y="1530.0">PolskiZwiazekWarcabowy.Client.GraphicBoardTest</node>
+    <node x="2258.3571424818347" y="1048.5">PolskiZwiazekWarcabowy.Client.WaitingWindow</node>
+    <node x="446.16328589443356" y="2005.5">PolskiZwiazekWarcabowy.Client.Actions</node>
+    <node x="1788.482142481835" y="1048.0">PolskiZwiazekWarcabowy.Client.ClientCreateTest.FakeClient</node>
+    <node x="1712.7958333333333" y="0.0">PolskiZwiazekWarcabowy.Client.ClientGUI</node>
+    <node x="1002.0458333333333" y="960.0">PolskiZwiazekWarcabowy.Client.HandlersSetter</node>
+    <node x="1406.982142481835" y="1497.0">PolskiZwiazekWarcabowy.Client.ClientJoinTest</node>
+    <node x="370.09047581516825" y="643.0">PolskiZwiazekWarcabowy.Client.ColoursConnections</node>
+    <node x="693.4342258151682" y="1093.0">PolskiZwiazekWarcabowy.Client.GraphicBoard</node>
+    <node x="959.1632858944336" y="1375.0">PolskiZwiazekWarcabowy.Client.GameWindow</node>
+    <node x="759.9342258151682" y="643.5">PolskiZwiazekWarcabowy.Client.GraphicField</node>
+    <node x="1700.982142481835" y="1486.0">PolskiZwiazekWarcabowy.Client.ClientCreateTest</node>
+    <node x="2110.9821424818347" y="1486.0">PolskiZwiazekWarcabowy.Client.BotsChoosingWindow</node>
+    <node x="1334.3784592115535" y="234.0">PolskiZwiazekWarcabowy.Client.ServerListener</node>
+    <node x="2046.982142481835" y="1907.0">PolskiZwiazekWarcabowy.Client.InvitationWindow</node>
+    <node x="1618.544642481835" y="577.0">PolskiZwiazekWarcabowy.Client.GameClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="PolskiZwiazekWarcabowy.Client.GraphicBoardTest" target="PolskiZwiazekWarcabowy.Client.ColoursConnections">
+      <point x="-141.25" y="-81.0" />
+      <point x="595.0625" y="1355.0" />
+      <point x="478.09047581516825" y="1355.0" />
+      <point x="-15.5625" y="70.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.HandlersSetter" target="PolskiZwiazekWarcabowy.Client.GraphicField">
+      <point x="-120.0" y="-147.5" />
+      <point x="1032.0458333333333" y="910.0" />
+      <point x="913.3957642767066" y="910.0" />
+      <point x="58.46153846153845" y="70.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ClientCreateTest.FakeClient" target="PolskiZwiazekWarcabowy.Client.ClientCreateTest">
+      <point x="76.125" y="59.5" />
+      <point x="1966.107142481835" y="1355.0" />
+      <point x="2031.732142481835" y="1355.0" />
+      <point x="141.75" y="-125.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ClientCreateTest" target="PolskiZwiazekWarcabowy.Client.ClientCreateTest.FakeClient">
+      <point x="-141.75" y="-125.0" />
+      <point x="1748.232142481835" y="1355.0" />
+      <point x="1813.857142481835" y="1355.0" />
+      <point x="-76.125" y="59.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.GameWindow" target="PolskiZwiazekWarcabowy.Client.HandlersSetter">
+      <point x="-21.133333333333212" y="-236.0" />
+      <point x="1096.5299525611003" y="1275.0" />
+      <point x="1039.5458333333333" y="1275.0" />
+      <point x="-112.5" y="147.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.GameWindow" target="PolskiZwiazekWarcabowy.Client.ClientGUI">
+      <point x="63.400000000000205" y="-236.0" />
+      <point x="1181.0632858944339" y="1315.0" />
+      <point x="1312.5458333333333" y="1315.0" />
+      <point x="1312.5458333333333" y="204.0" />
+      <point x="1737.2958333333333" y="204.0" />
+      <point x="-73.5" y="92.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.GameWindow" target="PolskiZwiazekWarcabowy.Client.GraphicBoard">
+      <point x="-126.79999999999984" y="-236.0" />
+      <point x="990.8632858944338" y="1325.0" />
+      <point x="816.1217258151682" y="1325.0" />
+      <point x="47.1875" y="14.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.HandlersSetter" target="PolskiZwiazekWarcabowy.Client.GameClient">
+      <point x="120.0" y="-147.5" />
+      <point x="1272.0458333333333" y="900.0" />
+      <point x="1644.794642481835" y="900.0" />
+      <point x="-78.75" y="136.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.BotsChoosingWindow" target="PolskiZwiazekWarcabowy.Client.ClientGUI">
+      <point x="0.0" y="-125.0" />
+      <point x="2230.9821424818347" y="1355.0" />
+      <point x="2193.9821424818347" y="1355.0" />
+      <point x="2193.9821424818347" y="214.0" />
+      <point x="1835.2958333333333" y="214.0" />
+      <point x="24.5" y="92.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ClientCreateTest.FakeClient" target="PolskiZwiazekWarcabowy.Client.GameClient">
+      <point x="-50.75" y="-59.5" />
+      <point x="1839.232142481835" y="940.0" />
+      <point x="1732.294642481835" y="940.0" />
+      <point x="8.75" y="136.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ColoursConnectionsTest.Worker" target="PolskiZwiazekWarcabowy.Client.ColoursConnections">
+      <point x="70.0" y="-70.5" />
+      <point x="268.09047581516825" y="940.0" />
+      <point x="447.90297581516825" y="940.0" />
+      <point x="-46.6875" y="70.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.BotsChoosingWindow" target="PolskiZwiazekWarcabowy.Client.GameClient">
+      <point x="-48.0" y="-125.0" />
+      <point x="2182.9821424818347" y="1355.0" />
+      <point x="2168.1106020686966" y="1355.0" />
+      <point x="2168.1106020686966" y="890.0" />
+      <point x="1819.794642481835" y="890.0" />
+      <point x="96.25000000000006" y="136.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.GameClient" target="PolskiZwiazekWarcabowy.Client.ServerListener">
+      <point x="-70.0" y="-136.5" />
+      <point x="1653.544642481835" y="557.0" />
+      <point x="1484.1641734972677" y="557.0" />
+      <point x="33.28571428571422" y="136.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.GraphicBoardTest" target="PolskiZwiazekWarcabowy.Client.GraphicBoard">
+      <point x="-28.25" y="-81.0" />
+      <point x="708.0625" y="1355.0" />
+      <point x="759.4967258151682" y="1355.0" />
+      <point x="-9.4375" y="14.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.InvitationWindow" target="PolskiZwiazekWarcabowy.Client.GameClient">
+      <point x="-46.0" y="-169.0" />
+      <point x="2161.9821424818347" y="1877.0" />
+      <point x="2100.4821424818347" y="1877.0" />
+      <point x="2100.4821424818347" y="910.0" />
+      <point x="1784.794642481835" y="910.0" />
+      <point x="61.25000000000006" y="136.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ServerListener" target="PolskiZwiazekWarcabowy.Client.Actions">
+      <point x="-99.85714285714289" y="136.5" />
+      <point x="1351.0213163544108" y="527.0" />
+      <point x="348.59047581516825" y="527.0" />
+      <point x="348.59047581516825" y="1887.0" />
+      <point x="461.9490001801478" y="1887.0" />
+      <point x="-94.71428571428578" y="-70.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ColoursConnectionsTest.Worker" target="PolskiZwiazekWarcabowy.Client.ColoursConnectionsTest">
+      <point x="70.0" y="70.5" />
+      <point x="268.09047581516825" y="1355.0" />
+      <point x="252.5" y="1355.0" />
+      <point x="101.0" y="-103.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.WaitingWindow" target="PolskiZwiazekWarcabowy.Client.ClientGUI">
+      <point x="0.0" y="-59.0" />
+      <point x="2340.8571424818347" y="204.0" />
+      <point x="1884.2958333333333" y="204.0" />
+      <point x="73.5" y="92.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ServerListener" target="PolskiZwiazekWarcabowy.Client.GameWindow">
+      <point x="0.0" y="136.5" />
+      <point x="1450.8784592115535" y="557.0" />
+      <point x="1382.923404566745" y="557.0" />
+      <point x="1382.923404566745" y="1335.0" />
+      <point x="1223.3299525611005" y="1335.0" />
+      <point x="105.66666666666686" y="-236.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ClientJoinTest.FakeClient" target="PolskiZwiazekWarcabowy.Client.ClientJoinTest">
+      <point x="56.0" y="48.5" />
+      <point x="1599.982142481835" y="1355.0" />
+      <point x="1635.3154758151682" y="1355.0" />
+      <point x="91.33333333333326" y="-114.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.InvitationWindow" target="PolskiZwiazekWarcabowy.Client.WaitingWindow">
+      <point x="92.0" y="-169.0" />
+      <point x="2299.9821424818347" y="1877.0" />
+      <point x="2361.4821424818347" y="1877.0" />
+      <point x="20.625" y="59.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.GameWindow" target="PolskiZwiazekWarcabowy.Client.GameClient">
+      <point x="126.80000000000007" y="-236.0" />
+      <point x="1244.4632858944337" y="1345.0" />
+      <point x="1401.9488091485016" y="1345.0" />
+      <point x="1401.9488091485016" y="910.0" />
+      <point x="1662.294642481835" y="910.0" />
+      <point x="-61.25" y="136.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.GraphicBoardTest" target="PolskiZwiazekWarcabowy.Client.GraphicField">
+      <point x="141.25" y="-81.0" />
+      <point x="877.5625" y="1355.0" />
+      <point x="854.9342258151682" y="1355.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.Actions" target="PolskiZwiazekWarcabowy.Client.GraphicField">
+      <point x="0.0" y="-70.5" />
+      <point x="556.6632858944336" y="1877.0" />
+      <point x="523.3125" y="1877.0" />
+      <point x="523.3125" y="900.0" />
+      <point x="781.8573027382452" y="900.0" />
+      <point x="-73.0769230769231" y="70.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.HandlersSetter" target="PolskiZwiazekWarcabowy.Client.GameWindow">
+      <point x="112.5" y="147.5" />
+      <point x="1264.5458333333333" y="1305.0" />
+      <point x="1159.9299525611004" y="1305.0" />
+      <point x="42.266666666666765" y="-236.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.GraphicBoard" target="PolskiZwiazekWarcabowy.Client.ColoursConnections">
+      <point x="-30.200000000000003" y="-14.5" />
+      <point x="738.7342258151682" y="870.0" />
+      <point x="603.5279758151682" y="870.0" />
+      <point x="108.9375" y="70.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.InvitationWindow" target="PolskiZwiazekWarcabowy.Client.GameWindow">
+      <point x="-138.0" y="-169.0" />
+      <point x="2069.9821424818347" y="1887.0" />
+      <point x="1223.3299525611003" y="1887.0" />
+      <point x="105.66666666666663" y="236.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.GameWindow" target="PolskiZwiazekWarcabowy.Client.ColoursConnections">
+      <point x="-147.93333333333317" y="-236.0" />
+      <point x="969.7299525611004" y="1335.0" />
+      <point x="545.3125" y="1335.0" />
+      <point x="545.3125" y="880.0" />
+      <point x="541.2779758151682" y="880.0" />
+      <point x="46.6875" y="70.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.GraphicBoard" target="PolskiZwiazekWarcabowy.Client.GraphicBoard">
+      <point x="-47.1875" y="14.5" />
+      <point x="721.7467258151682" y="1152.0" />
+      <point x="663.4342258151682" y="1152.0" />
+      <point x="663.4342258151682" y="1107.5" />
+      <point x="-75.5" y="-0.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.Actions" target="PolskiZwiazekWarcabowy.Client.GameWindow">
+      <point x="63.14285714285711" y="-70.5" />
+      <point x="619.8061430372907" y="1877.0" />
+      <point x="1011.996619227767" y="1877.0" />
+      <point x="-105.66666666666663" y="236.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ColoursConnectionsTest" target="PolskiZwiazekWarcabowy.Client.ColoursConnectionsTest.Worker">
+      <point x="0.0" y="-103.0" />
+      <point x="151.5" y="1355.0" />
+      <point x="128.09047581516825" y="1355.0" />
+      <point x="-70.0" y="70.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.GameWindow" target="PolskiZwiazekWarcabowy.Client.GraphicField">
+      <point x="-63.399999999999864" y="-236.0" />
+      <point x="1054.2632858944337" y="1295.0" />
+      <point x="923.7336358313815" y="1295.0" />
+      <point x="923.7336358313815" y="930.0" />
+      <point x="884.1649950459373" y="930.0" />
+      <point x="29.23076923076917" y="70.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ServerListener" target="PolskiZwiazekWarcabowy.Client.ClientGUI">
+      <point x="0.0" y="-136.5" />
+      <point x="1450.8784592115535" y="214.0" />
+      <point x="1786.2958333333333" y="214.0" />
+      <point x="-24.5" y="92.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ClientJoinTest" target="PolskiZwiazekWarcabowy.Client.ClientJoinTest.FakeClient">
+      <point x="0.0" y="-114.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ClientJoinTest.FakeClient" target="PolskiZwiazekWarcabowy.Client.GameClient">
+      <point x="42.0" y="-48.5" />
+      <point x="1585.982142481835" y="940.0" />
+      <point x="1714.794642481835" y="940.0" />
+      <point x="-8.75" y="136.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.GraphicBoard" target="PolskiZwiazekWarcabowy.Client.GraphicField">
+      <point x="0.0" y="-14.5" />
+      <point x="768.9342258151682" y="920.0" />
+      <point x="811.0880719690144" y="920.0" />
+      <point x="-43.84615384615381" y="70.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ServerListener" target="PolskiZwiazekWarcabowy.Client.GameClient">
+      <point x="99.85714285714289" y="136.5" />
+      <point x="1550.7356020686966" y="537.0" />
+      <point x="1793.544642481835" y="537.0" />
+      <point x="70.00000000000006" y="-136.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.BotsChoosingWindow" target="PolskiZwiazekWarcabowy.Client.WaitingWindow">
+      <point x="96.0" y="-125.0" />
+      <point x="2326.9821424818347" y="1355.0" />
+      <point x="2320.2321424818347" y="1355.0" />
+      <point x="-20.625" y="59.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.InvitationWindow" target="PolskiZwiazekWarcabowy.Client.BotsChoosingWindow">
+      <point x="46.0" y="-169.0" />
+      <point x="2253.9821424818347" y="1887.0" />
+      <point x="2290.9821424818347" y="1887.0" />
+      <point x="60.0" y="125.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Client.ColoursConnectionsTest" target="PolskiZwiazekWarcabowy.Client.ColoursConnections">
+      <point x="-101.0" y="-103.0" />
+      <point x="50.5" y="1355.0" />
+      <point x="47.59047581516825" y="1355.0" />
+      <point x="47.59047581516825" y="920.0" />
+      <point x="385.65297581516825" y="920.0" />
+      <point x="-108.9375" y="70.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4" x="1059.3333333333333" y="542.5833333333333" />
+  <SelectedNodes>
+    <node>PolskiZwiazekWarcabowy.Client.EndWindow</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

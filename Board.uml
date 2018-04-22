@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>PolskiZwiazekWarcabowy.Board</OriginalElement>
+  <nodes>
+    <node x="1816.0" y="485.0">PolskiZwiazekWarcabowy.Board.BoardPattern</node>
+    <node x="843.0333333333335" y="0.0">PolskiZwiazekWarcabowy.Board.BoardBuilder</node>
+    <node x="1114.2622807017547" y="749.0">PolskiZwiazekWarcabowy.Board.Board</node>
+    <node x="0.0" y="540.0">PolskiZwiazekWarcabowy.Board.HexagonalBoardWithNoPlayersBuilder</node>
+    <node x="594.0" y="540.0">PolskiZwiazekWarcabowy.Board.HexagonalBoardForThreePlayersBuilder</node>
+    <node x="1122.2622807017547" y="1161.0">PolskiZwiazekWarcabowy.Board.BoardTest</node>
+    <node x="902.0" y="540.0">PolskiZwiazekWarcabowy.Board.HexagonalBoardForTwoPlayersBuilder</node>
+    <node x="552.95" y="232.0">PolskiZwiazekWarcabowy.Board.AbstractHexagonalBoardBuilder</node>
+    <node x="1506.0" y="529.0">PolskiZwiazekWarcabowy.Board.BoardAssembler</node>
+    <node x="1203.0" y="540.0">PolskiZwiazekWarcabowy.Board.HexagonalBoardForFourPlayersBuilder</node>
+    <node x="302.0" y="540.0">PolskiZwiazekWarcabowy.Board.HexagonalBoardForSixPlayersBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="PolskiZwiazekWarcabowy.Board.Board" target="PolskiZwiazekWarcabowy.Board.HexagonalBoardWithNoPlayersBuilder">
+      <point x="-167.1111111111111" y="-181.0" />
+      <point x="1135.1511695906433" y="729.0" />
+      <point x="141.0" y="729.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.HexagonalBoardWithNoPlayersBuilder" target="PolskiZwiazekWarcabowy.Board.AbstractHexagonalBoardBuilder">
+      <point x="0.0" y="-37.0" />
+      <point x="141.0" y="425.0" />
+      <point x="565.3500000000001" y="425.0" />
+      <point x="-111.59999999999991" y="81.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.Board" target="PolskiZwiazekWarcabowy.Board.BoardBuilder">
+      <point x="41.77777777777783" y="-181.0" />
+      <point x="1344.0400584795325" y="699.0" />
+      <point x="1495.5" y="699.0" />
+      <point x="1495.5" y="192.0" />
+      <point x="1037.2208333333335" y="192.0" />
+      <point x="74.6875" y="81.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.HexagonalBoardWithNoPlayersBuilder" target="PolskiZwiazekWarcabowy.Board.BoardBuilder">
+      <point x="-94.0" y="-37.0" />
+      <point x="47.0" y="415.0" />
+      <point x="199.53011695906446" y="415.0" />
+      <point x="199.53011695906446" y="182.0" />
+      <point x="857.9708333333335" y="182.0" />
+      <point x="-104.5625" y="81.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.HexagonalBoardForTwoPlayersBuilder" target="PolskiZwiazekWarcabowy.Board.BoardBuilder">
+      <point x="93.66666666666674" y="-37.0" />
+      <point x="1136.1666666666667" y="212.0" />
+      <point x="977.4708333333335" y="212.0" />
+      <point x="14.9375" y="81.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.Board" target="PolskiZwiazekWarcabowy.Board.BoardPattern">
+      <point x="167.1111111111111" y="-181.0" />
+      <point x="1469.3733918128655" y="729.0" />
+      <point x="1968.5" y="729.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.HexagonalBoardForFourPlayersBuilder" target="PolskiZwiazekWarcabowy.Board.BoardBuilder">
+      <point x="94.0" y="-37.0" />
+      <point x="1438.0" y="415.0" />
+      <point x="1297.03216374269" y="415.0" />
+      <point x="1297.03216374269" y="202.0" />
+      <point x="1007.3458333333335" y="202.0" />
+      <point x="44.8125" y="81.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.HexagonalBoardForSixPlayersBuilder" target="PolskiZwiazekWarcabowy.Board.BoardBuilder">
+      <point x="-90.66666666666674" y="-37.0" />
+      <point x="347.33333333333326" y="415.0" />
+      <point x="355.1967836257311" y="415.0" />
+      <point x="355.1967836257311" y="192.0" />
+      <point x="887.8458333333335" y="192.0" />
+      <point x="-74.6875" y="81.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.Board" target="PolskiZwiazekWarcabowy.Board.BoardAssembler">
+      <point x="83.55555555555566" y="-181.0" />
+      <point x="1385.8178362573103" y="709.0" />
+      <point x="1578.5" y="709.0" />
+      <point x="-72.5" y="48.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.Board" target="PolskiZwiazekWarcabowy.Board.HexagonalBoardForFourPlayersBuilder">
+      <point x="0.0" y="-181.0" />
+      <point x="1302.2622807017547" y="689.0" />
+      <point x="1344.0" y="689.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.HexagonalBoardForThreePlayersBuilder" target="PolskiZwiazekWarcabowy.Board.BoardBuilder">
+      <point x="96.0" y="-37.0" />
+      <point x="834.0" y="465.0" />
+      <point x="811.45" y="465.0" />
+      <point x="811.45" y="212.0" />
+      <point x="947.5958333333335" y="212.0" />
+      <point x="-14.9375" y="81.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.HexagonalBoardForSixPlayersBuilder" target="PolskiZwiazekWarcabowy.Board.AbstractHexagonalBoardBuilder">
+      <point x="90.66666666666674" y="-37.0" />
+      <point x="528.6666666666667" y="455.0" />
+      <point x="639.75" y="455.0" />
+      <point x="-37.200000000000045" y="81.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.HexagonalBoardForThreePlayersBuilder" target="PolskiZwiazekWarcabowy.Board.AbstractHexagonalBoardBuilder">
+      <point x="0.0" y="-37.0" />
+      <point x="738.0" y="465.0" />
+      <point x="689.3500000000001" y="465.0" />
+      <point x="12.400000000000091" y="81.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.HexagonalBoardForFourPlayersBuilder" target="PolskiZwiazekWarcabowy.Board.AbstractHexagonalBoardBuilder">
+      <point x="0.0" y="-37.0" />
+      <point x="1344.0" y="425.0" />
+      <point x="788.5500000000002" y="425.0" />
+      <point x="111.60000000000014" y="81.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.Board" target="PolskiZwiazekWarcabowy.Board.HexagonalBoardForThreePlayersBuilder">
+      <point x="-83.55555555555554" y="-181.0" />
+      <point x="1218.706725146199" y="709.0" />
+      <point x="738.0" y="709.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.AbstractHexagonalBoardBuilder" target="PolskiZwiazekWarcabowy.Board.BoardBuilder">
+      <point x="0.0" y="-81.5" />
+      <point x="676.95" y="202.0" />
+      <point x="917.7208333333335" y="202.0" />
+      <point x="-44.8125" y="81.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.BoardTest" target="PolskiZwiazekWarcabowy.Board.Board">
+      <point x="120.0" y="-169.0" />
+      <point x="1422.2622807017547" y="1136.0" />
+      <point x="1427.5956140350877" y="1136.0" />
+      <point x="125.33333333333326" y="181.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.Board" target="PolskiZwiazekWarcabowy.Board.HexagonalBoardForTwoPlayersBuilder">
+      <point x="-41.77777777777783" y="-181.0" />
+      <point x="1260.4845029239768" y="699.0" />
+      <point x="1042.5" y="699.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.HexagonalBoardForTwoPlayersBuilder" target="PolskiZwiazekWarcabowy.Board.AbstractHexagonalBoardBuilder">
+      <point x="-93.66666666666674" y="-37.0" />
+      <point x="948.8333333333333" y="455.0" />
+      <point x="714.1500000000001" y="455.0" />
+      <point x="37.200000000000045" y="81.5" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.BoardAssembler" target="PolskiZwiazekWarcabowy.Board.BoardBuilder">
+      <point x="0.0" y="-48.0" />
+      <point x="1651.0" y="182.0" />
+      <point x="1067.0958333333335" y="182.0" />
+      <point x="104.5625" y="81.0" />
+    </edge>
+    <edge source="PolskiZwiazekWarcabowy.Board.Board" target="PolskiZwiazekWarcabowy.Board.HexagonalBoardForSixPlayersBuilder">
+      <point x="-125.33333333333326" y="-181.0" />
+      <point x="1176.9289473684212" y="719.0" />
+      <point x="438.0" y="719.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8929368029739779" x="1572.788582807274" y="719.3767100580976" />
+  <SelectedNodes>
+    <node>PolskiZwiazekWarcabowy.Board.Board</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

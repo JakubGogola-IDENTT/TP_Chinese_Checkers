@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="PolskiZwiazekWarcabowy.Client.InvitationWindow">
+  <children>
+    <BorderPane prefHeight="500.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <center>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+          <children>
+            <MenuButton mnemonicParsing="false" text="New game for">
+              <font>
+                <Font size="14.0" fx:id="x1" />
+              </font>
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#newGameFor2PlayersHandler" text="2 players" />
+                <MenuItem mnemonicParsing="false" onAction="#newGameFor3PlayersHandler" text="3 players" />
+                <MenuItem mnemonicParsing="false" onAction="#newGameFor4PlayersHandler" text="4 players" />
+                <MenuItem mnemonicParsing="false" onAction="#newGameFor6PlayersHandler" text="6 players" />
+              </items>
+            </MenuButton>
+            <Separator prefWidth="200.0" />
+            <Button font="$x1" mnemonicParsing="false" onMouseClicked="#joinGameHandler" text="Join game" />
+          </children>
+        </VBox>
+      </center>
+      <top>
+        <MenuBar prefHeight="32.0" prefWidth="349.0" useSystemMenuBar="true">
+          <menus>
+            <Menu mnemonicParsing="false" text="About...">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#infoWindowHandler" text="authors" />
+              </items>
+            </Menu>
+          </menus>
+        </MenuBar>
+      </top>
+    </BorderPane>
+  </children>
+</AnchorPane>
